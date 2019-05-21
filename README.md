@@ -26,3 +26,13 @@ $ git clone https://github.com/mbdjair/blue
  	* Banco orientado a objeto, possibilitando uma integração mais simples com o back-end
  	* Grande gama de querys
  	* Alta disponibilidade
+
+## Arquitetura
+
+### Front-end
+
+![](https://github.com/mbdjair/blue/blob/master/assets/front-architecture.jpg)
+
+### Front-end
+
+![](https://github.com/mbdjair/blue/blob/master/assets/express-rest-api.png)
