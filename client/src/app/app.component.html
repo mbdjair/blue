@@ -1,0 +1,27 @@
+
+<!-- Bootstrap Navbar -->
+<nav class="navbar navbar-light bg-faded">
+  <div class="container">
+    <a class="navbar-brand" href="#">BlueTech Hype System</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row mt-4">
+    <h3>Add new enterprise</h3>
+    <form class="form-inline">
+      <div class="form-group mx-sm-2 mb-2">
+        <label for="name" class="sr-only">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name" #name>
+      </div>
+      <button type="button" (click)="addEnterprise(name.value)" class="btn btn-primary mb-2">Add enterprise</button>
+    </form>
+  </div>
+  <div class="row mt-4">
+    <h3>Enterprises</h3>
+    
+    <div class="card card-block col-md-3 ml-sm-3" *ngFor="let enterprise of enterprises">
+      <h4 class="card-title">{{enterprise.name}}  {{enterprise.age}}</h4>
+    </div>
+  </div>
+</div>
